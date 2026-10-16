@@ -1,0 +1,15 @@
+node_modules/
+dist/
+out/
+data/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+scripts/sync-*.ps1
