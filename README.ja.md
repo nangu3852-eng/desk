@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
-**クラシック・エリス 0.4.4（Windows x64）：** EPUB/TXT ライブラリ、検索、共通ユーザープロフィール、任意の自発的な会話に対応。[更新内容](docs/releases/v0.4.4.md)。
+**クラシック・エリス 0.4.5（Windows x64）：** EPUB/TXT ライブラリ、検索、共通プロフィール、自発的な会話に対応。キャラクター設定が無効な場合の復帰先を修正。[更新内容](docs/releases/v0.4.5.md)。
 
 [![Build](https://github.com/nangu3852-eng/desk/actions/workflows/build.yml/badge.svg)](https://github.com/nangu3852-eng/desk/actions/workflows/build.yml)
 [![Latest Release](https://img.shields.io/github/v/release/nangu3852-eng/desk?label=latest%20release)](https://github.com/nangu3852-eng/desk/releases/latest)

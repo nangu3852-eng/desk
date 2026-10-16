@@ -393,7 +393,8 @@ function listCharacterPacks() {
 
 function getCharacterPack(characterId = settings.characterId) {
   const packs = listCharacterPacks();
-  return packs.find((pack) => pack.id === characterId) || packs[0] || null;
+  return packs.find((pack) => pack.id === characterId)
+    || packs.find((pack) => pack.id === DEFAULT_CHARACTER_ID) || packs[0] || null;
 }
 
 function publicSettings() {

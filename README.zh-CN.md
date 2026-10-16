@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
-**经典艾莉丝 0.4.4（Windows x64）：**支持 EPUB/TXT 书库、实时搜索、跨角色长期用户设定和可选主动聊天。[更新说明](docs/releases/v0.4.4.md) · [后续发布流程](docs/RELEASING.md)。
+**经典艾莉丝 0.4.5（Windows x64）：**支持 EPUB/TXT 书库、实时搜索、跨角色长期用户设定和可选主动聊天，修复失效角色恢复时受系统语言影响的问题。[更新说明](docs/releases/v0.4.5.md) · [后续发布流程](docs/RELEASING.md)。
 
 [![Build](https://github.com/nangu3852-eng/desk/actions/workflows/build.yml/badge.svg)](https://github.com/nangu3852-eng/desk/actions/workflows/build.yml)
 [![Latest Release](https://img.shields.io/github/v/release/nangu3852-eng/desk?label=latest%20release)](https://github.com/nangu3852-eng/desk/releases/latest)

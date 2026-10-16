@@ -14,6 +14,7 @@ test("first-run defaults disable voice and experimental affection", () => {
 
 test("invalid settings fall back to usable values and supported sizes", () => {
   const app = loadMain();
+  app.run('const unorderedPacks = listCharacterPacks(); listCharacterPacks = () => [...unorderedPacks.filter(pack => pack.id !== DEFAULT_CHARACTER_ID), ...unorderedPacks.filter(pack => pack.id === DEFAULT_CHARACTER_ID)]');
   const settings = app.run('normalizeSettings({characterId:"missing",scale:100,expressionMode:"invalid",restReminderMinutes:4,assistant:{baseUrl:"file:///invalid",temperature:99,maxHistory:0},tts:{provider:"invalid",rate:99}})');
   assert.equal(settings.characterId, "classic-alice");
   assert.equal(settings.scale, 2);

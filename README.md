@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 
-**Classic Alice 0.4.4 (Windows x64):** EPUB/TXT library, live search, shared user profile, and optional proactive chat. [Release notes](docs/releases/v0.4.4.md) · [Publishing process](docs/RELEASING.md).
+**Classic Alice 0.4.5 (Windows x64):** EPUB/TXT library, live search, shared user profile, optional proactive chat, and consistent Classic Alice fallback. [Release notes](docs/releases/v0.4.5.md) · [Publishing process](docs/RELEASING.md).
 
 [![Build](https://github.com/nangu3852-eng/desk/actions/workflows/build.yml/badge.svg)](https://github.com/nangu3852-eng/desk/actions/workflows/build.yml)
 [![Latest Release](https://img.shields.io/github/v/release/nangu3852-eng/desk?label=latest%20release)](https://github.com/nangu3852-eng/desk/releases/latest)
